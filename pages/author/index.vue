@@ -52,6 +52,7 @@ export default {
     return author.authorWebList(1, 3).then(response => {
       if (response.success === true) {
         return {
+
           list: response.data.rows,  /*作者信息*/
           total: response.data.total  /*作品列表*/
         }

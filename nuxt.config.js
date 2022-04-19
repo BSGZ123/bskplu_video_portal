@@ -46,10 +46,6 @@ module.exports = {
       })
     ]
   },
-  server :{
-    host: '0.0.0.0',
-    port:3000
-  },
   // 插件集成
   /*
   * ssr: 是否服务端渲染
